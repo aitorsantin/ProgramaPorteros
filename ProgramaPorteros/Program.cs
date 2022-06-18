@@ -16,7 +16,7 @@ namespace ProgramaPorteros
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SeguimientoDeAcciones());
+            Application.Run(new AccesoDatos());
         }
     }
 }

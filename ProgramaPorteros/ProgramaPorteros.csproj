@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccesoDatos.Designer.cs">
+      <DependentUpon>AccesoDatos.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeguimientoDeAcciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccesoDatos.resx">
+      <DependentUpon>AccesoDatos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SeguimientoDeAcciones.resx">
       <DependentUpon>SeguimientoDeAcciones.cs</DependentUpon>
     </EmbeddedResource>
