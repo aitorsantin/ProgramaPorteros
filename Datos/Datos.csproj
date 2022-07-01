@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,7 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion\DA_Conexion.cs" />
+    <Compile Include="Conexion\IDA_Conexion.cs" />
+    <Compile Include="DA_Porteros\DA_AltaPortero.cs" />
+    <Compile Include="Entidades\Portero.cs" />
+    <Compile Include="Helper\Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
