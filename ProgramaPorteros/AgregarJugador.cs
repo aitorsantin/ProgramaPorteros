@@ -10,22 +10,21 @@ using System.Windows.Forms;
 
 namespace ProgramaPorteros
 {
-    public partial class AccesoDatos : Form
+    public partial class AgregarJugador : Form
     {
-        public AccesoDatos()
+        public AgregarJugador()
         {
             InitializeComponent();
         }
 
-        private void AccesoDatos_Load(object sender, EventArgs e)
+        private void AgregarJugador_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void LlenarCombobox()
+        private void btnAgregar_Click(object sender, EventArgs e)
         {
-            cbConexion.Items.Add("");
-            cbConexion.SelectedIndex = 0;
+            
         }
     }
 }
